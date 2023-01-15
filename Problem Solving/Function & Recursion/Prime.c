@@ -2,8 +2,8 @@
 
 #include <stdio.h>
 
-
 // Function to check if a number is prime
+
 int is_prime(int num)
 {
     if (num <= 1)
@@ -29,19 +29,19 @@ int is_prime(int num)
     return 1;
 }
 
-
-
 int main()
 {
     int start, end, i;
 
     // Read the start and end numbers from the user
+    
     printf("Enter start number: ");
     scanf("%d", &start);
     printf("Enter end number: ");
     scanf("%d", &end);
 
     // Print all the prime numbers in the given range
+    
     printf("Prime numbers in the range %d to %d:", start, end);
     for (i = start; i <= end; i++)
     {
