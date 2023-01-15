@@ -1,4 +1,4 @@
-// Program to find if the given no is a palindrome
+// Program to find if the given no is a palindrome 
 
 #include <stdio.h>
 
@@ -9,9 +9,11 @@ int is_palindrome(int num)
     int reversed = 0, remainder, original;
 
     // Store the original number
+    
     original = num;
 
     // Reverse the number
+    
     while (num != 0)
     {
         remainder = num % 10;
@@ -20,6 +22,7 @@ int is_palindrome(int num)
     }
 
     // Check if the original and reversed numbers are equal
+    
     if (original == reversed)
     {
         return 1;
@@ -36,10 +39,12 @@ int main()
     int num;
 
     // Read the number from the user
-    printf("Enter a number: ");
+    
+    printf("Enter a number : ");
     scanf("%d", &num);
 
     // Check if the number is a palindrome
+    
     if (is_palindrome(num))
     {
         printf("%d is a palindrome\n", num);
@@ -51,5 +56,3 @@ int main()
 
     return 0;
 }
-
-
