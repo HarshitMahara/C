@@ -1,4 +1,5 @@
 // UNION OPERATIONS ON SETS IN C
+
 #include <stdio.h>
  int main()
  {
@@ -6,6 +7,7 @@
 
 
     // Creating first set, Set A
+  
     printf("Enter the size of set A\n");
     scanf("%d", &n1);
     printf("Enter the elements of set A\n");
@@ -13,7 +15,9 @@
     {
         scanf("%d", &a[i]);
     }
+  
     // Creating second set, Set B
+  
     printf("Enter the size of set B\n");
     scanf("%d", &n2);
     printf("Enter the elements of set B\n");
@@ -24,6 +28,7 @@
 
     // logic for calculate union
     // copy the element of set A in set c
+  
     for (i = 0; i < n1; i++)
     {
         // repeated element is not allowed so we checked is any value repeted
@@ -38,10 +43,13 @@
             k++;
         }
     }
+  
     // copy the element of set B in set c
+  
     for (i = 0; i < n2; i++)
     {
         // repeated element is not allowed so we checked is any value repeted
+     
         for (j = 0; j < k; j++)
         {
             if (c[j] == b[i])
@@ -53,7 +61,9 @@
             k++;
         }
     }
+  
     // printing of union of set A and set B
+  
     printf("\n\nUnion of set A and B is:- { ");
     for (i = 0; i < k; i++)
     {
