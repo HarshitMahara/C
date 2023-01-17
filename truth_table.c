@@ -1,3 +1,5 @@
+// Program to print the truth table of OR, AND and  NOT Gate 
+
 #include<stdio.h>
 void main()
 {
