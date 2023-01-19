@@ -18,4 +18,3 @@ int main(void) {
     printf("The sum of the series is: %lld\n", sum);
     return 0;
 }
-
