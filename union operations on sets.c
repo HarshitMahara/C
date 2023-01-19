@@ -55,7 +55,10 @@
             if (c[j] == b[i])
                 break;
         }
-        if (j == k) // if not repeated then store value in set c
+        if (j == k) 
+         
+        // if not repeated then store value in set c
+         
         {
             c[k] = b[i];
             k++;
